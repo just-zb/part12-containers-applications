@@ -1,0 +1,13 @@
+Script started on Wed Feb 26 18:52:45 2025
+[1m[7m%[27m[1m[0m                                                                                                                                   ]2;michael@Michaels-MacBook-Pro:~/Desktop/part12-containers-applications/script-answers]1;..cript-answers]7;file://Michaels-MacBook-Pro.local/Users/michael/Desktop/part12-containers-applications/script-answers\[0m[27m[24m[J(base) [32mmichael@Michaels-MacBook-Pro: [00m[34m/Users/michael/Desktop/part12-containers-applications/script-answers [00m[01;34m[01;34m [00m
+[01;32m➜  [00m [K[?1h=[?2004h[A[0m[27m[24m[J(base) [32mmichael@Michaels-MacBook-Pro: [00m[34m/Users/michael/Desktop/part12-containers-applications/script-answers [00m[01;34mgit:([31mmain[34m) [33m✗[00m[00m[01;34m [00m
+[01;32m➜  [00m [Kddocker run -it --name ubuntu-test ubuntu bash[?1l>[?2004l
+]2;docker run -it --name ubuntu-test ubuntu bash]1;docker[?2004h]0;root@258c2a99fe5a: /root@258c2a99fe5a:/# mkdir -p /usr/src/app
+[?2004l[?2004h]0;root@258c2a99fe5a: /root@258c2a99fe5a:/# cd /us sr/src/app/
+[?2004l[?2004h]0;root@258c2a99fe5a: /usr/src/approot@258c2a99fe5a:/usr/src/app# touch index.js
+[?2004l[?2004h]0;root@258c2a99fe5a: /usr/src/approot@258c2a99fe5a:/usr/src/app# exit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                                                                   ]2;michael@Michaels-MacBook-Pro:~/Desktop/part12-containers-applications/script-answers]1;..cript-answers]7;file://Michaels-MacBook-Pro.local/Users/michael/Desktop/part12-containers-applications/script-answers\[0m[27m[24m[J(base) [32mmichael@Michaels-MacBook-Pro: [00m[34m/Users/michael/Desktop/part12-containers-applications/script-answers [00m[01;34mgit:([31mmain[34m) [33m✗[00m[00m[01;34m [00m
+[01;32m➜  [00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Wed Feb 26 18:53:45 2025

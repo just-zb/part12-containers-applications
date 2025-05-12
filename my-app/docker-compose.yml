@@ -1,0 +1,27 @@
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+  app:
+    image: hello-front-dev
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile 
+    volumes:
+      - ./frontend:/usr/src/app
+    container_name: hello-front-dev
+  api:
+    image: hello-back-dev
+    build:
+      context: ./backend
+      dockerfile: Dockerfile 
+    volumes:
+      - ./backend:/usr/src/app
+    container_name: hello-back-dev
+    environment:
+      - MONGODB_URI=mongodb+srv://baozhu:wdb168728@cluster0.kock2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      - PORT=3001
+      - SECRET=pwd
